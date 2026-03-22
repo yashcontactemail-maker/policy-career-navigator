@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 /* ================================================================
    PPI POLICY CAREER NAVIGATOR v10
    by Public Policy India (publicpolicyindia.com)
-   376 roles | 372 pathways | 90+ skills | AI scored
+   500 roles | 721 entry points | 104 skills | AI scored
    Deploy: Replace src/app/PolicyCareerNavigator.jsx + commit
    ================================================================ */
 
@@ -1105,7 +1105,141 @@ const PD=[
 [584,"Navjyoti India Foundation YP","Fellowship","Young professional programme at Navjyoti Foundation (Kiran Bedi's organisation). Community policing, women's empowerment, skill development.",["Navjyoti India Foundation"],1,["Governance"]],
 [585,"Centre for Civil Society Liberty Fellowship","Fellowship","Research fellowship at CCS Delhi focused on economic freedom, education vouchers, and regulatory reform. Market-oriented policy research.",["Centre for Civil Society"],2,["Economics", "Education"]],
 [586,"IDFC Institute Fellowship","Fellowship","Research fellowships at IDFC Institute (now CSEP). Urban governance, political economy, state capacity research.",["CSEP"],2,["Governance", "Economics"]],
-[587,"Takshashila Graduate Certificate","Certification","Part-time GCPP and GCST (Strategic Studies). Online, practitioner-oriented. For working professionals entering policy. 3-month modules.",["Takshashila Institution"],1,["Governance", "Security"]]
+[587,"Takshashila Graduate Certificate","Certification","Part-time GCPP and GCST (Strategic Studies). Online, practitioner-oriented. For working professionals entering policy. 3-month modules.",["Takshashila Institution"],1,["Governance", "Security"]],
+[588,"CPPR (Kochi)","Organisation","Think tank focused on economic freedom, governance reform, education policy. One of few prominent think tanks based in South India.",["CPPR"],1,["Governance", "Economics"]],
+[589,"IEG (Institute of Economic Growth)","Organisation","Delhi. Macroeconomics, agriculture, industry, human development. Autonomous body under University of Delhi.",["IEG"],2,["Economics"]],
+[590,"CSTEP (Bengaluru)","Organisation","Science, technology, energy policy. Techno-economic modelling for Karnataka and national energy transition.",["CSTEP"],2,["Climate", "Digital"]],
+[591,"CMIE (Centre for Monitoring Indian Economy)","Organisation","India's most comprehensive economic databases: CPHS, Prowess, CapEx. Data roles for analysts and field investigators.",["CMIE"],2,["Economics"]],
+[592,"IHAT (India Health Action Trust)","Organisation","Technical support to UP and MP governments on health systems. NHM strengthening, TB, immunisation.",["IHAT"],2,["Health"]],
+[593,"MIDS (Madras Institute of Development Studies)","Organisation","Chennai. Regional development, agrarian studies, social history. One of ICSSR's premier research institutes.",["MIDS"],2,["Economics", "Governance"]],
+[594,"CDS (Centre for Development Studies)","Organisation","Thiruvananthapuram. Development economics, labour, migration, technology. JNU-affiliated.",["CDS"],2,["Economics"]],
+[595,"Accountability Initiative (CPR)","Organisation","Track government spending and service delivery. PAISA studies on education and health budgets across states.",["Accountability Initiative"],1,["Governance"]],
+[596,"IRADe (Integrated Research for Development)","Organisation","Delhi. Climate change, urban development, energy. Headed by former TERI DG. UNFCCC observer.",["IRADe"],1,["Climate"]],
+[597,"ICWA (Indian Council of World Affairs)","Organisation","India's oldest foreign policy think tank (est. 1943). Under MEA. Research fellowships in IR and diplomacy.",["ICWA"],2,["Security"]],
+[598,"Centre for Equity Studies","Organisation","Delhi. Social exclusion, hunger, homelessness, urban poverty. Founded by Harsh Mander.",["Centre for Equity Studies"],1,["Governance"]],
+[599,"CNES (JGU)","Organisation","Centre for New Economics Studies at Jindal. Political economy, public finance, development economics research and teaching fellowships.",["CNES"],1,["Economics"]],
+[600,"The Hindu Centre for Politics and Public Policy","Organisation","Chennai. Research fellowships, policy analysis, public affairs journalism. Bridge between media and policy.",["The Hindu Centre"],2,["Governance"]],
+[601,"QCI (Quality Council of India)","Organisation","Standards, accreditation, quality across sectors. ZED certification for MSMEs, NABH for hospitals, NABL for labs.",["QCI"],1,["Governance"]],
+[602,"Centre for Financial Accountability","Organisation","Track public finance flows to fossil fuel and infrastructure projects. Climate finance accountability.",["CFA"],1,["Climate", "Economics"]],
+[603,"ActionAid India","Organisation","Rights-based approach. Land, food, gender, education, emergencies. Multi-state operations with strong advocacy.",["ActionAid India"],1,["Governance"]],
+[604,"Breakthrough India","Organisation","Culture change for gender equality. Media, arts, and technology for social norms shift.",["Breakthrough India"],1,["Governance"]],
+[605,"Barefoot College","Organisation","Tilonia, Rajasthan. Solar grandmothers, rural innovation, global South-South cooperation model.",["Barefoot College"],1,["Climate", "Education"]],
+[606,"Akshara Foundation","Organisation","Bengaluru. Government school education quality improvement. Math and language programmes at scale.",["Akshara Foundation"],1,["Education"]],
+[607,"Udhyam Learning Foundation","Organisation","Entrepreneurship mindset in government schools. Works with state education departments on NEP-aligned programmes.",["Udhyam"],1,["Education"]],
+[608,"Udayan Care","Organisation","Delhi. Aftercare for children leaving child care institutions. Education, livelihoods, mentoring.",["Udayan Care"],1,["Education"]],
+[609,"Chintan Environmental Research & Action Group","Organisation","Waste picker rights, circular economy, air quality. Delhi-based environmental justice organisation.",["Chintan"],1,["Climate", "Livelihoods"]],
+[610,"Ekjut","Organisation","Jharkhand. Participatory women's group meetings reducing neonatal mortality. Evidence-based community health.",["Ekjut"],1,["Health"]],
+[611,"SAMHITA (Social Venture Partners India)","Organisation","CSR advisory and collective impact. Bridge between corporates and social sector. Pool corporate giving.",["SAMHITA"],1,["All sectors"]],
+[612,"Swades Foundation","Organisation","Rural empowerment in Raigad, Maharashtra. Holistic village development model: health, water, education, livelihoods.",["Swades Foundation"],1,["Livelihoods"]],
+[613,"People's Archive of Rural India (PARI)","Organisation","Journalism on rural India. Multilingual. Founded by P. Sainath. Volunteer researchers and translators.",["PARI"],1,["Governance"]],
+[614,"Video Volunteers","Organisation","Community correspondents producing grassroots journalism from marginalised communities. 200+ reporters.",["Video Volunteers"],1,["Governance"]],
+[615,"Tata-Cornell Institute","Organisation","Agriculture, nutrition, food policy research. Joint initiative of Tata Trusts and Cornell University.",["Tata-Cornell Institute"],2,["Health", "Livelihoods"]],
+[616,"SNEHA (Society for Nutrition, Education & Health Action)","Organisation","Mumbai. Maternal and child health in urban slums. Prevention of violence against women.",["SNEHA"],1,["Health"]],
+[617,"Gram Vaani (community media)","Organisation","Technology for voice-based community media. Mobile vaani platform reaches millions in low-literacy areas.",["Gram Vaani"],1,["Digital", "Governance"]],
+[618,"Catalyst Management Services (CMS)","Organisation","M&E, social research, programme evaluation. One of India's oldest social research firms (est. 1985).",["Catalyst Management Services"],1,["All sectors"]],
+[619,"CHETNA (Centre for Health Education, Training and Nutrition Awareness)","Organisation","Ahmedabad. Child health, nutrition, WASH. Training and advocacy across Gujarat.",["CHETNA"],1,["Health"]],
+[620,"Ibtada","Organisation","Alwar, Rajasthan. Girls' education, women's empowerment, community institutions. Grassroots model.",["Ibtada"],1,["Education", "Governance"]],
+[621,"Lighthouse Communities Foundation","Organisation","Affordable housing community development. Health, education, livelihoods in low-income housing.",["Lighthouse"],1,["Governance"]],
+[622,"CINI (Child in Need Institute)","Organisation","Kolkata. Maternal and child health, nutrition, education. West Bengal and Jharkhand operations.",["CINI"],1,["Health"]],
+[623,"Srijan (Self-Reliant Initiatives through Joint Action)","Organisation","Livelihoods. SHG promotion and enterprise development across MP, Rajasthan, Bihar.",["Srijan"],1,["Livelihoods"]],
+[624,"Timbaktu Collective","Organisation","Anantapur, AP. Organic farming, children's education, dalit land rights. Deep rural model.",["Timbaktu Collective"],1,["Livelihoods"]],
+[625,"Ambedkar Foundation","Organisation","Central government body promoting Dr. Ambedkar's legacy. Scholarships, research, social justice programmes.",["Ambedkar Foundation"],1,["Governance"]],
+[626,"Smile Foundation","Organisation","Education, health, livelihoods across 25 states. Large-scale NGO with corporate partnerships.",["Smile Foundation"],1,["Education", "Health"]],
+[627,"Samerth Trust","Organisation","Gujarat. Disability, tribal development, livelihoods. Inclusive community development model.",["Samerth Trust"],1,["Governance", "Livelihoods"]],
+[628,"Digital India Corporation (DIC)","Organisation","MeitY's implementation arm for Digital India. Technology deployment, data analytics, programme management roles.",["DIC"],1,["Digital"]],
+[629,"NSDC (National Skills Development Corporation)","Organisation","Skills ecosystem management. Sector skill councils, PMKVY, apprenticeship promotion. Programme and partnership roles.",["NSDC"],1,["Livelihoods"]],
+[630,"NCW (National Commission for Women)","Organisation","Investigate complaints, recommend policy changes, review legislation. Consultant and research roles.",["NCW"],1,["Governance"]],
+[631,"DST (Department of Science & Technology)","Organisation","Fund and coordinate S&T research. Scientist, programme officer, consultant positions.",["DST"],1,["Digital"]],
+[632,"NITI Aayog Frontier Technologies Division","Organisation","Emerging tech: AI, blockchain, drones. Within NITI but focused on technology governance.",["NITI Aayog"],2,["Digital"]],
+[633,"Kerala State Planning Board","Organisation","One of India's most active state planning bodies. Research, data analysis, scheme evaluation.",["Kerala Planning Board"],1,["Governance", "Economics"]],
+[634,"AP Real Time Governance (APRTGS)","Organisation","Andhra Pradesh's real-time monitoring system. Technology-driven governance with village secretariats.",["APRTGS"],2,["Digital", "Governance"]],
+[635,"Rajasthan ILD Skills University","Organisation","State university focused on skills and livelihoods. Academic and programme management roles.",["ILD Skills University"],1,["Education", "Livelihoods"]],
+[636,"Bihar Administrative Reform Society (BAPMS)","Organisation","Implements Bihar CM Fellowship with IIM Bodh Gaya. Administrative reform and governance modernisation.",["BAPMS"],1,["Governance"]],
+[637,"Chhattisgarh CHiPS","Organisation","Chhattisgarh Infotech Promotion Society. State IT agency implementing CM IT Fellowship and digital governance.",["CHiPS"],1,["Digital", "Governance"]],
+[638,"McKinsey Social Sector Practice","Organisation","Global firm's social impact work. Associate, Engagement Manager roles. India office covers health, education, livelihoods.",["McKinsey"],3,["All sectors"]],
+[639,"BCG Social Impact Practice","Organisation","Public sector, health, education consulting. Knowledge analyst, social impact lead roles.",["BCG"],3,["All sectors"]],
+[640,"Accenture Development Partnerships","Organisation","Technology consulting for development. Analyst, consultant, programme lead roles.",["Accenture ADP"],2,["Digital"]],
+[641,"CRISIL (S&P Global)","Organisation","Infrastructure advisory, policy research, risk assessment. Analyst, manager roles with policy dimension.",["CRISIL"],2,["Economics"]],
+[642,"ICF International India","Organisation","Government consulting. Health, environment, education programme implementation and evaluation.",["ICF"],2,["Health", "Education"]],
+[643,"Kantar Public (India)","Organisation","Social research, public opinion surveys, policy evaluation. Research executive, project director roles.",["Kantar Public"],2,["Governance"]],
+[644,"I-PAC (Indian Political Action Committee)","Organisation","Prashant Kishor's political consulting. Data analytics, field operations, campaign strategy.",["I-PAC"],2,["Governance"]],
+[645,"Nation with Namo / NaMo App team","Organisation","Political technology and citizen engagement platform. Data, product, community management roles.",["NaMo App"],1,["Governance", "Digital"]],
+[646,"Praxis Institute for Participatory Practices","Organisation","Participatory research and evaluation. PLA, PRA methodologies. Training and consulting.",["Praxis"],1,["Governance"]],
+[647,"Sambodhi Research & Communications","Organisation","M&E, impact evaluation, social research. Analyst, researcher, project manager roles.",["Sambodhi"],1,["All sectors"]],
+[648,"Alt News","Organisation","India's leading fact-checking organisation. Researcher, fact-checker, video producer roles.",["Alt News"],1,["Governance", "Digital"]],
+[649,"The Third Pole","Organisation","Transboundary water and climate journalism. South Asia focus. Reporter, editor, researcher.",["The Third Pole"],1,["Climate"]],
+[650,"The Print","Organisation","News and analysis. Reporters, editors, data journalists. Policy-adjacent journalism careers.",["The Print"],1,["Governance"]],
+[651,"Gaon Connection","Organisation","Rural India journalism platform. Vernacular content on agriculture, governance, livelihoods.",["Gaon Connection"],1,["Governance", "Livelihoods"]],
+[652,"PARI (Rural Archives)","Organisation","P. Sainath's People's Archive of Rural India. Volunteer-driven rural journalism. Multilingual.",["PARI"],1,["Governance"]],
+[653,"IMF (International Monetary Fund)","Organisation","Macroeconomic policy, technical assistance, surveillance. Economist, research assistant roles. DC-based.",["IMF"],3,["Economics"]],
+[654,"UNODC","Organisation","Drugs, crime, terrorism, corruption. Programme officer, legal expert roles. Vienna and Delhi.",["UNODC"],2,["Governance"]],
+[655,"FAO (Food and Agriculture Organization)","Organisation","Food security, agriculture, nutrition policy. Programme and technical officer roles.",["FAO"],2,["Livelihoods", "Health"]],
+[656,"UNEP (Environment Programme)","Organisation","Climate, biodiversity, pollution. Programme and technical specialist roles.",["UNEP"],2,["Climate"]],
+[657,"WFP (World Food Programme)","Organisation","Food logistics, nutrition, emergency response. Programme and logistics officer roles.",["WFP"],2,["Health"]],
+[658,"CSIS (Washington DC)","Organisation","Centre for Strategic and International Studies. Research associate, fellow positions.",["CSIS"],2,["Security"]],
+[659,"Atlantic Council","Organisation","Indo-Pacific, energy, digital. Associate fellow, research associate, programme roles.",["Atlantic Council"],2,["Security", "Digital"]],
+[660,"Urban Institute","Organisation","US-based. Poverty, housing, health, education research. Research associate and analyst roles.",["Urban Institute"],2,["Economics", "Governance"]],
+[661,"Amnesty International","Organisation","Human rights research, campaigning, advocacy. Researcher, campaigner, legal advisor roles.",["Amnesty International"],2,["Governance"]],
+[662,"Human Rights Watch","Organisation","Global human rights. Researcher, advocate, communications roles. Country-specific investigations.",["Human Rights Watch"],2,["Governance"]],
+[663,"Greenpeace India","Organisation","Environmental campaigning, research, direct action. Campaigner, researcher, communications.",["Greenpeace India"],1,["Climate"]],
+[664,"MSF/Doctors Without Borders","Organisation","Medical humanitarian. Doctors, nurses, logisticians, project coordinators. Field-based.",["MSF"],2,["Health"]],
+[665,"Chemonics International","Organisation","USAID implementing partner. Programme management, technical specialist, chief of party roles.",["Chemonics"],2,["All sectors"]],
+[666,"RTI International","Organisation","Research, technical assistance. Health, education, governance, environment. Analyst, PM roles.",["RTI International"],2,["Health", "Governance"]],
+[667,"Abt Associates","Organisation","Research, consulting. Health systems, climate, governance. Research associate, programme manager.",["Abt Associates"],2,["Health", "Climate"]],
+[668,"GiveDirectly","Organisation","Cash transfers. Data analyst, operations, programme manager. Remote-friendly.",["GiveDirectly"],1,["Economics"]],
+[669,"GiveWell","Organisation","Effective altruism research. Research analyst, senior researcher. Fully remote.",["GiveWell"],2,["All sectors"]],
+[670,"Open Philanthropy","Organisation","EA grantmaking. Research analyst, programme officer, grants manager. Remote-friendly.",["Open Philanthropy"],2,["All sectors"]],
+[671,"Access Now","Organisation","Digital rights globally. Policy analyst, campaigner, technologist. Remote-friendly.",["Access Now"],1,["Digital"]],
+[672,"Internet Society (ISOC)","Organisation","Internet governance, policy, community. Policy advisor, programme manager. Remote.",["ISOC"],1,["Digital"]],
+[673,"Evidence Action","Organisation","Evidence-based development organisation scaling proven interventions (deworming, water tre. Based in New Delhi (+ Washington DC, Na.",["Evidence Action"],1,["Governance"]],
+[674,"Lok Foundation","Organisation","Philanthropy focused on education, water, sanitation, nutrition, and social empowerment in. Based in Ahmedabad.",["Lok Foundation"],1,["Governance"]],
+[675,"Naandi Foundation","Organisation","Working on early childhood development, safe drinking water, sustainable agriculture, and . Based in Hyderabad (+ multiple states).",["Naandi Foundation"],1,["Governance"]],
+[676,"Landesa (Rural Development Institute India)","Organisation","Global land rights organisation working on secure land tenure for rural poor, women's land. Based in New Delhi.",["Landesa"],1,["Governance"]],
+[677,"Aangan Trust","Organisation","Working on child protection, preventing trafficking, and strengthening child protection sy. Based in Mumbai (+ 17 states).",["Aangan Trust"],1,["Governance"]],
+[678,"Enable India","Organisation","Working on disability inclusion, employment, skill development, and accessibility for pers. Based in Bengaluru.",["Enable India"],1,["Governance"]],
+[679,"Youth4Jobs Foundation","Organisation","Working on disability inclusion in employment through skilling and job placement for perso. Based in Hyderabad (+ multiple states).",["Youth4Jobs Foundation"],1,["Governance"]],
+[680,"Janvikas","Organisation","Working on social inclusion, land rights, governance, and livelihoods in Gujarat.. Based in Ahmedabad.",["Janvikas"],1,["Governance"]],
+[681,"BAIF Development Research Foundation","Organisation","Working on rural livelihoods, tribal development, livestock, watershed, and natural resour. Based in Pune (+ 16 states).",["BAIF Development Research"],1,["Governance"]],
+[682,"Sambhav Foundation","Organisation","Working on sustainable livelihoods, waste management, sanitation, and women's empowerment.. Based in Lucknow.",["Sambhav Foundation"],1,["Governance"]],
+[683,"International Justice Mission (IJM) India","Organisation","Working on combating human trafficking, forced labour, and commercial sexual exploitation . Based in Chennai (+ multiple cities).",["International Justice Mis"],1,["Governance"]],
+[684,"People's Science Institute (PSI)","Organisation","Working on water resource management, community health, sustainable agriculture, and envir. Based in Dehradun.",["People's Science Institut"],1,["Governance"]],
+[685,"Water.org India","Organisation","Founded by Matt Damon, working on microfinance for water and sanitation access (WaterCredi. Based in New Delhi.",["Water.org India"],1,["Governance"]],
+[686,"JSW Foundation","Organisation","CSR arm of JSW Group working on education, health, water, sports, and livelihoods.. Based in Mumbai (+ plant locations).",["JSW Foundation"],1,["Governance"]],
+[687,"Ambuja Cement Foundation","Organisation","CSR arm working on water, agriculture, skill development, women's empowerment, and communi. Based in Mumbai (+ plant locations).",["Ambuja Cement Foundation"],1,["Governance"]],
+[688,"Aide et Action (India)","Organisation","International education organisation working on inclusive education, migration, and digita. Based in Chennai (+ state offices).",["Aide et Action"],1,["Governance"]],
+[689,"Unnati Organisation for Development Education","Organisation","Working on governance, livelihoods, drought mitigation, and Dalit/tribal rights in Gujarat. Based in Ahmedabad.",["Unnati Organisation for D"],1,["Governance"]],
+[690,"Bachpan Bachao Andolan (BBA)","Organisation","Nobel laureate Kailash Satyarthi's organisation working on child rights, anti-trafficking,. Based in New Delhi (+ state offices).",["Bachpan Bachao Andolan"],1,["Governance"]],
+[691,"Watershed Organisation Trust (WOTR)","Organisation","Working on climate adaptation, watershed development, sustainable agriculture, and communi. Based in Pune (+ field offices across M.",["Watershed Organisation Tr"],1,["Governance"]],
+[692,"Solidarity Foundation","Organisation","Working on informal workers' rights, housing rights, urban governance, and social security. Based in Bengaluru.",["Solidarity Foundation"],1,["Governance"]],
+[693,"National Centre for Promotion of Employment for Di","Organisation","Working on disability rights, inclusive employment, accessibility, and policy advocacy for. Based in New Delhi.",["National Centre for Promo"],1,["Governance"]],
+[694,"India Water Portal (Arghyam Foundation)","Organisation","Platform for water and sanitation knowledge, advocacy, and community engagement. Arghyam i. Based in Bengaluru.",["India Water Portal"],1,["Governance"]],
+[695,"Elevar Equity","Organisation","Impact investing firm focused on financial services, healthcare, and housing for underserv. Based in Mumbai (+ San Francisco).",["Elevar Equity"],1,["Governance"]],
+[696,"Alternative Law Forum (ALF)","Organisation","Collective of lawyers working on alternative legal practice, housing rights, labour rights. Based in Bengaluru.",["Alternative Law Forum"],1,["Governance"]],
+[697,"Centre for Law and Policy Research (CLPR)","Organisation","Research centre working on constitutional law, social justice, disability rights, and data. Based in Bengaluru.",["Centre for Law and Policy"],1,["Governance"]],
+[698,"Council for Energy, Environment and Water (CEEW)","Organisation","Already in database but noting their clean energy, air pollution, water, and food systems . Based in New Delhi.",["Council for Energy, Envir"],1,["Governance"]],
+[699,"Toxic Links","Organisation","Working on environmental health, chemical safety, e-waste, and toxics policy advocacy.. Based in New Delhi.",["Toxic Links"],1,["Governance"]],
+[700,"India Committee of the Netherlands / Centre for La","Organisation","Working on supply chain labour rights, migration, bonded labour, and occupational health a. Based in Ahmedabad.",["India Committee of the Ne"],1,["Governance"]],
+[701,"Aide et Action (South Asia) Livelihoods","Organisation","Working on migration and education, skill development for marginalised youth, and liveliho. Based in Chennai (+ state offices).",["Aide et Action"],1,["Governance"]],
+[702,"WASH Institute","Organisation","Working on WASH capacity building, training, applied research, and community-led total san. Based in Kodaikanal, Tamil Nadu.",["WASH Institute"],1,["Governance"]],
+[703,"India Child Protection Fund (ICPF)","Organisation","Working on child protection system strengthening, anti-trafficking, and institutional refo. Based in New Delhi.",["India Child Protection Fu"],1,["Governance"]],
+[704,"Terre des Hommes India","Organisation","Working on child labour, child trafficking, juvenile justice, and children in conflict wit. Based in Pune.",["Terre des Hommes India"],1,["Governance"]],
+[705,"Yuva Parivartan (YUVA)","Organisation","Working on youth empowerment, urban governance, housing rights, and participatory planning. Based in Mumbai.",["Yuva Parivartan"],1,["Governance"]],
+[706,"Securities and Exchange Board of India (SEBI)","Organisation","Capital markets regulator overseeing securities, mutual funds, and investor protection.. Grade A Officer, Legal Officer, IT Officer, Resear.",["Securities and Exchange B"],1,["Governance"]],
+[707,"National Disaster Management Authority (NDMA)","Organisation","Apex body for disaster management, laying down policies, plans, and guidelines for disaste. Consultant, Project Associate, Technical Specialis.",["National Disaster Managem"],1,["Governance"]],
+[708,"Central Pollution Control Board (CPCB)","Organisation","Regulatory body monitoring air and water quality, industrial pollution, and hazardous wast. Scientist, Environmental Engineer, Technical Staff.",["Central Pollution Control"],1,["Governance"]],
+[709,"National Biodiversity Authority (NBA)","Organisation","Statutory body implementing the Biological Diversity Act, regulating access to biological . Technical Expert, Consultant, Programme Officer, R.",["National Biodiversity Aut"],1,["Governance"]],
+[710,"State Innovation and Transformation Commission (va","Organisation","State-level policy bodies (e.g., KSSITC Karnataka, UP Transformation Commission) working o. Consultant, Young Professional, Policy Analyst, Pr.",["State Innovation and Tran"],1,["Governance"]],
+[711,"Asian Infrastructure Investment Bank (AIIB)","Organisation","Multilateral development bank financing infrastructure and sustainable development in Asia. Roles: Investment Officer, Analyst, Economist, Legal Coun.",["Asian Infrastructure Inve"],2,["Governance"]],
+[712,"New Development Bank (NDB/BRICS Bank)","Organisation","Multilateral development bank established by BRICS nations for infrastructure and sustaina. Roles: Economist, Investment Analyst, Operations Officer,.",["New Development Bank"],2,["Governance"]],
+[713,"Plan International","Organisation","Development and humanitarian organisation working on children's rights and equality for gi. Roles: Programme Manager, Gender Specialist, Child Protec.",["Plan International"],2,["Governance"]],
+[714,"WaterAid International","Organisation","Working on clean water, sanitation, and hygiene to transform millions of lives globally.. Roles: Programme Manager, WASH Specialist, Policy Advisor.",["WaterAid International"],2,["Governance"]],
+[715,"Terre des Hommes","Organisation","International children's rights network working on child labour, trafficking, migration, a. Roles: Programme Manager, Child Protection Specialist, Ad.",["Terre des Hommes"],2,["Governance"]],
+[716,"Mozilla Foundation","Organisation","Non-profit promoting internet health, privacy, digital inclusion, and open web standards.. Remote-friendly. Roles: Policy Analyst, Programme Manager, Researcher, Dev.",["Mozilla Foundation"],1,["Digital", "Governance"]],
+[717,"Electronic Frontier Foundation (EFF)","Organisation","Digital rights organisation defending civil liberties in the digital world through advocac. Remote-friendly. Roles: Policy Analyst, Staff Attorney, Technologist, Comm.",["Electronic Frontier Found"],1,["Digital", "Governance"]],
+[718,"Development Gateway","Organisation","International non-profit using data and technology for development impact, focusing on dat. Remote-friendly. Roles: Data Analyst, Programme Manager, Software Develope.",["Development Gateway"],1,["Digital", "Governance"]],
+[719,"Center for Effective Altruism","Organisation","Non-profit supporting the effective altruism community through research, career guidance, . Remote-friendly. Roles: Researcher, Programme Manager, Communications, Eve.",["Center for Effective Altr"],1,["Digital", "Governance"]],
+[720,"Global Integrity","Organisation","Working on open government, anti-corruption, transparency, and accountability through data. Remote-friendly. Roles: Research Associate, Programme Manager, Data Analys.",["Global Integrity"],1,["Digital", "Governance"]],
+[721,"CoST Infrastructure Transparency Initiative","Organisation","Multi-stakeholder initiative promoting transparency and accountability in public infrastru. Remote-friendly. Roles: Programme Manager, Research Associate, Communicati.",["CoST Infrastructure Trans"],1,["Digital", "Governance"]]
 ];
 const PATHWAYS=PD.map(p=>({id:p[0],name:p[1],cat:p[2],desc:p[3],orgs:p[4],difficulty:p[5],verticals:p[6]}));
 
@@ -1205,7 +1339,7 @@ export default function PolicyCareerNavigator(){
   const [sub,setSub]=useState(0); // sub-tab navigation within tabs
   const [skillSearch,setSkillSearch]=useState("");
 
-  const TABS=["Role Directory","Career Fit","Skills & Ladders","Pathways In","Compensation & AI","The Sector"];
+  const TABS=["Role Directory","Career Fit","Skills & Ladders","How to Get In","Compensation & AI","The Sector"];
 
   // ---- Computed data ----
   const filtered=useMemo(()=>{
@@ -1353,7 +1487,7 @@ export default function PolicyCareerNavigator(){
           </Box>;
         })}
         <Callout color="#FEF3C7" textColor="#92400E" border="#FDE68A"><div style={{fontWeight:700,marginBottom:8}}>On making the switch</div><div style={{display:"flex",flexDirection:"column",gap:6}}><div>Career transitions into policy are common and achievable, but they work best when you can point to something concrete: a policy brief you wrote, a dataset you analysed, a volunteer project with a governance organisation.</div><div style={{paddingLeft:12,borderLeft:"2px solid #F59E0B"}}><strong>Demonstrable interest matters more than credentials.</strong> Some transitions involve a salary adjustment, some do not (especially corporate GAPA or consulting).</div><div>The key is to start building relevant experience on the side before making the full leap.</div></div></Callout>
-      </div>:<Box><div style={{textAlign:"center",padding:16,color:"#9CA3AF",fontSize:14}}>Select your current profession above to see your policy career pathways</div></Box>}
+      </div>:<Box><div style={{textAlign:"center",padding:16,color:"#9CA3AF",fontSize:14}}>Select your current profession above to discover which policy career spaces your skills transfer into</div></Box>}
     </div>;
 
     // Sub-tab 2: Career Compass
@@ -1467,8 +1601,16 @@ export default function PolicyCareerNavigator(){
     const cats=["All",...[...new Set(PATHWAYS.map(p=>p.cat))].sort()];
     const fp=pc==="All"?PATHWAYS:PATHWAYS.filter(p=>p.cat===pc);
     return <div>
-      <div style={{fontFamily:"Georgia,serif",fontSize:24,fontWeight:700,marginBottom:4}}>Pathways & Entry Points</div>
-      <div style={{fontSize:13,color:"#6B7280",marginBottom:10,lineHeight:1.55}}>{PATHWAYS.length} entry pathways into India's policy and development ecosystem: fellowships, academic programmes, government exams, internships, volunteering, professional transitions, certifications, and organisations.</div>
+      <div style={{fontFamily:"Georgia,serif",fontSize:24,fontWeight:700,marginBottom:4}}>How to Get In: Fellowships, Programmes, Exams & Organisations</div>
+      <div style={{fontSize:13,color:"#6B7280",marginBottom:10,lineHeight:1.55}}>{PATHWAYS.length} ways into India's policy and development ecosystem: fellowships, academic programmes, government exams, internships, volunteering opportunities, professional certifications, and organisations you can apply to directly.</div>
+      <div style={{background:"linear-gradient(135deg,#1E40AF 0%,#7C3AED 100%)",borderRadius:14,padding:"16px 20px",marginBottom:14,color:"white"}}>
+        <div style={{fontFamily:"Georgia,serif",fontSize:15,fontWeight:700,marginBottom:6}}>PPI's Free Career Resources</div>
+        <div style={{fontSize:12.5,lineHeight:1.55,opacity:.93,marginBottom:10}}>Beyond this navigator, PPI maintains several free career databases and resources including a comprehensive directory of 800+ organisations in this ecosystem (with career page links, typical roles, locations, and remote-friendliness), covering think tanks, NGOs, government bodies, consulting firms, media, multilaterals, INGOs, and remote-friendly employers. All freely accessible on PPI's website.</div>
+        <div style={{display:"flex",gap:8,flexWrap:"wrap"}}>
+          <a href="https://publicpolicyindia.com" target="_blank" rel="noopener" style={{padding:"7px 16px",borderRadius:8,background:"white",color:"#1E40AF",fontWeight:700,fontSize:12,textDecoration:"none"}}>Explore PPI Resources</a>
+          <a href="https://newsletter.publicpolicyindia.com" target="_blank" rel="noopener" style={{padding:"7px 16px",borderRadius:8,background:"rgba(255,255,255,.18)",color:"white",fontWeight:600,fontSize:12,textDecoration:"none",border:"1px solid rgba(255,255,255,.3)"}}>Subscribe for Updates</a>
+        </div>
+      </div>
       <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:12}}>
         {cats.map(c=><button key={c} onClick={()=>setPc(c)} style={{padding:"6px 14px",borderRadius:8,border:"none",background:pc===c?"#1E40AF":"#F3F4F6",color:pc===c?"white":"#4B5563",cursor:"pointer",fontSize:12,fontWeight:600,transition:".15s"}}>{c} ({c==="All"?PATHWAYS.length:PATHWAYS.filter(p=>p.cat===c).length})</button>)}
       </div>
@@ -1684,6 +1826,10 @@ export default function PolicyCareerNavigator(){
       <div style={{fontSize:12.5,color:"#374151",lineHeight:1.7}}>
         LinkedIn remains the single most important professional network for this sector. Follow organisations, engage with practitioners' posts, share your own work. PPI's city chapters across 20+ Indian cities provide offline networking that frequently leads to referrals. Twitter/X policy communities, especially around election seasons and budget sessions, surface opportunities. Alumni networks of LAMP, CMGGA, Teach For India, TISS, and JSGP function as informal job boards where openings circulate before being publicly listed.
       </div>
+      <div style={{background:"#EFF6FF",borderRadius:10,padding:14,marginTop:12,border:"1px solid #BFDBFE"}}>
+        <div style={{fontWeight:700,fontSize:13,color:"#1E40AF",marginBottom:4}}>PPI's Free Career Resources</div>
+        <div style={{fontSize:12,color:"#374151",lineHeight:1.5}}>PPI maintains several free career databases and tools, including a directory of 800+ organisations across think tanks, NGOs, government bodies, consulting firms, media, multilateral agencies, INGOs, and remote-friendly employers, each with career page links, typical roles, and locations. All freely accessible at <strong>publicpolicyindia.com</strong>.</div>
+      </div>
     </Box>
 
     <Callout><div style={{fontWeight:700,marginBottom:8}}>The trajectory</div><div style={{display:"flex",flexDirection:"column",gap:6}}><div>India's policy ecosystem has roughly tripled in the past decade by most measures:</div><div style={{display:"flex",flexWrap:"wrap",gap:6}}>{["Number of think tanks","Mandatory CSR pool size","Governance fellowship count","Corporate GAPA hiring volume","Dedicated policy schools","Domestic philanthropic giving"].map((v,i)=><span key={i} style={{padding:"3px 10px",borderRadius:8,background:"#DBEAFE",fontSize:12,fontWeight:500}}>{v}</span>)}</div><div style={{marginTop:4}}>The nonprofit sector posted the highest annual hiring growth of any sector in India in 2025 (55%+ per Foundit data). This expansion is structural, not cyclical, driven by the interaction of economic growth, regulatory complexity, geopolitical repositioning, and climate commitments.</div><div style={{fontWeight:600,marginTop:2}}>The question is not whether there are opportunities. It is whether you can find the right one.</div></div></Callout>
@@ -1703,7 +1849,7 @@ export default function PolicyCareerNavigator(){
           <div><div style={{fontFamily:"Georgia,serif",fontSize:16,fontWeight:700,color:"#111827"}}>Policy Career Navigator</div>
           <div style={{fontSize:10,color:"#6B7280"}}>by Public Policy India</div></div>
         </a>
-        <div style={{marginLeft:"auto",fontSize:10,color:"#6B7280",fontWeight:600,textAlign:"right"}}>{ROLES.length} roles · {PATHWAYS.length} pathways</div>
+        <div style={{marginLeft:"auto",fontSize:10,color:"#6B7280",fontWeight:600,textAlign:"right"}}>{ROLES.length} roles · {PATHWAYS.length} entry points</div>
       </div>
     </div>
     {/* Tab nav */}
